@@ -14,7 +14,7 @@ func main() {
 		biodata := handler.GetBiodataById(id)
 
 		if biodata.Id != ""{
-			fmt.Printf("Id\t\t: %s\nNama\t\t: %s\nAlamat\t\t: %s\nPekerjaan\t: %s\nAlasan\t\t: %s\n", biodata.Id, biodata.Name, biodata.Address, biodata.Job, biodata.Reason)
+			fmt.Printf("Nama\t\t: %s\nAlamat\t\t: %s\nPekerjaan\t: %s\nAlasan\t\t: %s\n", biodata.Name, biodata.Address, biodata.Job, biodata.Reason)
 		} else {
 			fmt.Println("Biodata Not Found")
 		}
